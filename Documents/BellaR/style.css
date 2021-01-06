@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}  
+
+header img {
+    height: 70px;
+}
+ul {
+    margin-left: 100px;
+    margin-top: 30px;
+    display: inline-flex;
+    list-style-type: none;
+}
+ul li {
+    justify-content: space-around;
+    margin: 10px 60px;
+}
+
+.homer {
+    color: orangered;
+}  
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#acceuil {
+    position: absolute;    
+    color: white;
+    font-style: normal;
+    font-family:Poppins;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.foodapp {
+    font-size: 20px;
+}
+
+.phrase1 {
+    font-size: 30px;
+}
+
+#imgfood img {
+    width: 1147px;
+    height: 450px;
+}
+
+
+h2 {text-align: center;}
+
+#Pizza {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Pizza1 {
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    width: 363px;
+    height: 365px;
+}
+
+.pizza{
+    padding-top: 2%;
+    width: 357px;
+}
+
+#Burger {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+}
+
+
+.Burger1 {
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    width: 363px;
+    height: 365px;
+}
+.burger{
+    padding-top: 2%;
+    width: 357px;
+}
+
+#Salade {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.salade1 {
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    width: 363px;
+    height: 365px;
+}
+
+.salade{
+    padding-top: 2%;
+    width: 357px;
+}
+
+button {
+    margin: 0%;
+    width: 20%;
+    height: 50px;
+    border-radius: 30%;
+    background-color: orangered;
+    align-self: 30%;
+    margin-left: 278px;
+}
+
+#Banniere {
+    position: absolute;    
+    color: white;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 1147px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#rectangleb {
+    width: 1147px;
+    height: 350px;
+}
+
+footer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.logo2 {
+    height: 70px;
+}
+
+#reseaux img {
+    height: 30;
+    text-align: center;
+}
+footer p {
+    float: right;
+}
+
+hr {
+    width: 50%;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+@media screen and ( max-width: 276px ) {
+    #info ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+}
+

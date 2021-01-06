@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+    <html lang="fr"> 
+        <head>      
+            <meta charset="utf-8">
+            <title>Commande</title>
+            <link rel="stylesheet" href="form.css"/>
+        </head>
+        <body>
+            <header>
+                <img class="logo" src="logo.png">
+                    <div id="info">
+                        <ul>
+                            <li class="homer" href="#">Home</li>
+                            <li href="#">Pizza</li>
+                            <li href="#">Burgers</li>
+                            <li href="#">Salade</li>
+                            <li href="#">Contact</li>    
+                        </ul>
+                    </div>
+            </header>
+                <div id="acceuil">
+                    <h4>Food app</h4>
+                    <p>Chez Bella</p>
+                    <p>chaque désir s'additionne.</p>
+                </div>
+                    <div id="imgfood"> <img src="fonds.png"></div>
+                      <h2>Vos Informations</h2>
+                    <section id="Informations">
+                        <div class="Nom">
+                            <form method="POST" action="traitement.php">
+                                <p>
+                                    <label for="pseudo">Nom</label><br>
+                                    <input type="text" name="pseudo" placeholder="Nom">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="Prenom">
+                            <form method="POST" action="traitement.php">
+                                <p>
+                                    <label for="pseudo">Prénom</label><br>
+                                    <input type="text" name="pseudo" placeholder="Prénom">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="Tél">
+                            <form method="POST" action="traitement.php">
+                                <p>
+                                    <label for="pseudo">Téléphone</label><br>
+                                    <input type="text" name="number" placeholder="Téléphone">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="Mail">
+                            <form method="POST" action="traitement.php">
+                                <p>
+                                    <label for="pseudo">Email</label><br>
+                                    <input type="text" name="Mail" placeholder="Email">
+                                </p>
+                            </form>
+                        </div>
+                    </section>
+                    <hr>
+                        <h2>Votre Commande</h2> 
+                        <h4 class="hred">Pizza 4 fromages</h4>
+                        <h4>Supplément</h4>
+                    <section id="Supplements" >
+                        <div id="box1">
+                            <div class="Ingredient">
+                                    <form method="POST" action="traitement.php">
+                                        <p>
+                                            <label for="pseudo">Ingrédient</label><br>
+                                                <select name="Fromage" id="ingredient" style="width: 200px;">
+                                                    <option value="">--fromage--</option>
+                                                </select>
+                                        </p>
+                                    </form>
+                            </div>
+                            <div class="Ingredient1">
+                                    <form method="POST" action="traitement.php">
+                                        <p>
+                                            <label for="pseudo">Ingrédient 1</label><br>
+                                                <select name="Fromage" id="ingredient" style="width: 200px;">
+                                                    <option value="">--fromage--</option>
+                                                </select>
+                                        </p>
+                                    </form>
+                                </div>
+                            <div class="Ingredient2">
+                                    <form method="POST" action="traitement.php">
+                                        <p>
+                                            <label for="pseudo">Ingrédient 2</label><br>
+                                                <select name="Fromage" id="ingredient" style="width: 200px;">
+                                                    <option value="">--fromage--</option>
+                                                </select>
+                                        </p>
+                                    </form>
+                                </div>
+                            <div class="Ingredient3">
+                                    <form method="POST" action="traitement.php">
+                                        <p>
+                                            <label for="pseudo">Ingrédient 3</label><br>
+                                                <select name="Fromage" id="ingredient" style="width: 200px;">
+                                                    <option value="">--fromage--</option>
+                                                </select>
+                                        </p>
+                                    </form>
+                            </div>    
+                        </div>
+                        <div id="box2">
+                            <div class="Quantite">
+                                <form method="POST" action="traitement.php" >
+                                    <p>
+                                        <label for="pseudo">Quantité</label>
+                                        <input type="text" name="number" placeholder="1">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Quantite">
+                                <form method="POST" action="traitement.php" >
+                                    <p>
+                                        <label for="pseudo">Quantité</label>
+                                        <input type="text" name="number" placeholder="1">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Quantite">
+                                <form method="POST" action="traitement.php" >
+                                    <p>
+                                        <label for="pseudo">Quantité</label>
+                                        <input type="text" name="number" placeholder="1">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Quantite">
+                                <form method="POST" action="traitement.php" >
+                                    <p>
+                                        <label for="pseudo">Quantité</label>
+                                        <input type="text" name="number" placeholder="1">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>       
+                    </section>
+                    <section id="choice">
+                        <div>
+                            <input type="checkbox" id="frites" name="avecfrites"checked>
+                            <label for="avecfrites">Avec frites</label>
+                        </div>   
+                        <div>
+                            <input type="checkbox" id="frit" name="sansfrites">
+                            <label for="sansfrites">Sans frites</label>
+                        </div>
+                    </section>
+                    <section id="choix2">
+                        <div id="Boissons">
+                            <h2>Boissons</h2>
+                                <div class="Coca">
+                                    <p>
+                                        <input class="green" type="button"  value="" style="background-color: green;">
+                                        <label for="pseudo">Coca-Cola</label>
+                                        <select name="Coca" id="Coca-Cola" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="Fanta">
+                                    <p>
+                                        <input class="green" type="button"  value="">
+                                        <label for="pseudo">Fanta</label>
+                                        <select name="Fanta" id="Fanta" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="Eau">
+                                    <p>
+                                        <input class="green" type="button"  value="">
+                                        <label for="pseudo">Eau</label>
+                                        <select name="Eau" id="Eau" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                        </div>
+                        <div id="Desserts">
+                            <h2>Desserts</h2>
+                                <div class="Tiramisu">
+                                    <p>
+                                        <input class="green" type="button"  value="" style="background-color: green;">
+                                        <label for="pseudo">Tiramisu</label>
+                                        <select name="Tira" id="Tiramisu" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="Cheese">
+                                    <p>
+                                        <input class="green" type="button"  value="">
+                                        <label for="pseudo">Cheese-cake</label>
+                                        <select name="Cheese" id="Cheese-cake" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="Tarte">
+                                    <p>
+                                        <input class="green" type="button"  value="">
+                                        <label for="pseudo">Tarte aux fraises</label>
+                                        <select name="Tarte" id="Tarte aux fraises" style="width: 200px;">
+                                        <option value="">1</option>
+                                        </select>
+                                    </p>
+                                </div>
+                        </div>
+                    </section>
+                    <hr>
+                        <h2>Adresse de livraison</h2>
+                            <section id="Livraison">
+                                <div id="Bloc1">
+                                    <div class="Nom2">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Nom</label><br>
+                                                <input type="text" name="pseudo" placeholder="Nom">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="Tél2">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Téléphone</label><br>
+                                                <input type="text" name="number" placeholder="Téléphone">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="Adresse">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Nom</label><br>
+                                                <input type="text" name="pseudo" placeholder="Adresse">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="ville">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Nom</label><br>
+                                                <input type="text" name="pseudo" placeholder="ville">
+                                            </p>
+                                        </form>
+                                    </div> 
+                                </div>
+                                <div id="Bloc2">
+                                    <div class="Prenom2">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Prénom</label><br>
+                                                <input type="text" name="pseudo" placeholder="Prénom">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="Mail">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Email</label><br>
+                                                <input type="text" name="Mail" placeholder="Email">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="Cp">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Code Postale</label><br>
+                                                <input type="text" name="number" placeholder="Code postale">
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <div class="Pays">
+                                        <form method="POST" action="traitement.php">
+                                            <p>
+                                                <label for="pseudo">Nom</label><br>
+                                                <input type="text" name="pseudo" placeholder="Pays">
+                                            </p>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        <footer>
+                            <button>Envoyer</button>
+                        </footer>   
+        </body>
+    </html>                    

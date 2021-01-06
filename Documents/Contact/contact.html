@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html lang="fr"> 
+        <head>      
+            <meta charset="utf-8">
+            <title>Nous Contacter</title>
+            <link rel="stylesheet" href="ctc.css"/>
+        </head>
+        <body>
+            <header>
+                <img class="logo" src="Log.png">
+                    <div id="info">
+                        <ul>
+                            <li class="homer" href="#">Home</li>
+                            <li href="#">Pizza</li>
+                            <li href="#">Burgers</li>
+                            <li href="#">Salade</li>
+                            <li href="#">Contact</li>    
+                        </ul>
+                    </div>
+            </header>
+                <div id="acceuil">
+                    <h4>Food app</h4>
+                    <p>Chez Bella</p>
+                    <p>chaque désir s'additionne.</p>
+                </div>
+                    <div id="imgfood"> <img src="rec.png"></div>
+
+                    <h2>Nous Contacter</h2>
+                    <section id="Titre">
+                        <div id="Bloc1">
+                            <div class="Nom2">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Nom</label><br>
+                                        <input type="text" name="pseudo" placeholder="Nom">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Tél2">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Téléphone</label><br>
+                                        <input type="text" name="number" placeholder="Téléphone">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Adresse">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Société</label><br>
+                                        <input type="text" name="societe" placeholder="Société">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="Bloc2">
+                            <div class="Prenom2">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Prénom</label><br>
+                                        <input type="text" name="pseudo" placeholder="Prénom">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Mail">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Email</label><br>
+                                        <input type="text" name="Mail" placeholder="Email">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="Cp">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Fonction</label><br>
+                                        <input type="text" name="fonction" placeholder="Fonction">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                        <button id="upload">UPLOAD</button>
+                            <p> Chose your file</p>
+                            <p> ICI Mettre Re-Captcha ( Chercher sur google)</p>
+                        <br>
+                            <div class="Objet">
+                                <p>
+                                    <label for="pseudo">Objet</label>
+                                    <select name="objet" id="Objet" style="width: 542px;">
+                                        <option value="">Objet</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="Message">
+                                <form method="POST" action="traitement.php">
+                                    <p>
+                                        <label for="pseudo">Message</label><br>
+                                        <input type="text" name="Message" placeholder="Message" style="width: 580px;height: 200px;">
+                                    </p>
+                                </form>
+                            </div>
+                        <img class="carte" src="carte.png">
+                        <br>
+                        <button id="envoyer">Envoyer</button>
+        </body>
+    </html>
